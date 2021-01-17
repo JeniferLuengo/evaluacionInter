@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">evaluacionInter</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "Soy una persona proactiva, que acepta eh intenta de aceptar distintos tipos de desafios "
+        "Organizada, perfeccionista, me encanta liderar proyectos"
+        "trabajar en equipo e intento de dar soluciones a distintos problemas.\n\n"
+
+
+    </string>
+    <string name="action_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main_scrolling">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/large_text" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="?android:dividerHorizontal"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:showDividers="middle|end"
+        android:stretchColumns="1">
+        <TableRow>
+            <TextView
+                style="@style/CustomTable.row"
+                android:text="Años de experiencia" />
+            <TextView
+                style="@style/CustomTable.Header"
+                android:text="0,1 " />
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/CustomTable.row"
+                android:text="Nivel de Motivación" />
+            <TextView
+                style="@style/CustomTable.row"
+                android:text=" Extremadamente alta" />
+        </TableRow>
+    </TableLayout>
+</>
